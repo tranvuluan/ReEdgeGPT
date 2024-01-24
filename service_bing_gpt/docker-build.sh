@@ -1,0 +1,1 @@
+docker build -t bing-service -f Dockerfiles/Flask/Dockerfile .

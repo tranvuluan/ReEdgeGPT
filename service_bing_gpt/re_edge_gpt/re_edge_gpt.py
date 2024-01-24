@@ -32,6 +32,7 @@ class Chatbot:
             proxy: str | None = None,
             cookies: list[dict] | None = None,
     ) -> Chatbot:
+        print('CREATE CHAT BOT')
         self = Chatbot.__new__(Chatbot)
         self.proxy = proxy
         self.chat_hub = ChatHub(

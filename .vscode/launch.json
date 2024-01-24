@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Python: Chatbot",
+        "type": "python",
+        "request": "launch",
+        "program": "${workspaceFolder}/test/unit_test/test_bot/test_bot_update.py",
+        "jinja": true,
+        "justMyCode": true,
+        "env": {
+        }
+      }
+    ]
+  }
