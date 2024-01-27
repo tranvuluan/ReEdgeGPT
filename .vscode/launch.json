@@ -5,10 +5,11 @@
         "name": "Python: Chatbot",
         "type": "python",
         "request": "launch",
-        "program": "${workspaceFolder}/test/unit_test/test_bot/test_bot_update.py",
+        "program": "${workspaceFolder}/service_bing_gpt/test/unit_test/test_bot/test_bot_update.py",
         "jinja": true,
         "justMyCode": true,
         "env": {
+          "EDGE_COOKIES": "/Users/luantran/Documents/Research/ReEdgeGPT/service_bing_gpt/Dockerfiles/Flaskbing_cookies.json" 
         }
       }
     ]
